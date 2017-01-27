@@ -6,6 +6,54 @@
 $blue: #79f8ff;
 $red: #ff0d0d;
 
+@font-face {
+  font-family: 'Futura Bold Italic font';
+  src: url('fonts/Futura Bold Italic font.eot');
+  src: url('fonts/Futura Bold Italic font.woff2') format('woff2'),
+       url('fonts/Futura Bold Italic font.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaBT-BoldItalic';
+  src: url('fonts/FuturaBT-BoldItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BentonSans-Black';
+  src: url('fonts/BentonSans-Black.eot');
+  src: url('fonts/BentonSans-Black.woff2') format('woff2'),
+       url('fonts/BentonSans-Black.woff') format('woff'),
+       url('fonts/BentonSans-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Heavy font';
+  src: url('fonts/Futura Heavy font.eot');
+  src: url('fonts/Futura Heavy font.woff2') format('woff2'),
+       url('fonts/Futura Heavy font.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaBT-Heavy';
+  src: url('fonts/FuturaBT-Heavy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$futuraBold: 'Futura Heavy font';
+$futuraItalic: 'Futura Bold Italic font';
+$bentonSans: 'BentonSans-Black';
+
+
+
 @import
 	'normalize',
 	'skeleton',
