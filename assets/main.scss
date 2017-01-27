@@ -4,7 +4,11 @@
 @charset "utf-8";
 
 $blue: #79f8ff;
+$darkBlue: darken($blue, 10%);
 $red: #ff0d0d;
+$darkRed: darken($red, 10%);
+$textColor: #333;
+$accentColor: #fff;
 
 @font-face {
   font-family: 'Futura Bold Italic font';
@@ -57,4 +61,5 @@ $bentonSans: 'BentonSans-Black';
 @import
 	'normalize',
 	'skeleton',
+	'typography',
 	'home'
