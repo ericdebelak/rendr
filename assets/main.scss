@@ -7,8 +7,11 @@ $blue: #79f8ff;
 $darkBlue: darken($blue, 10%);
 $red: #ff0d0d;
 $darkRed: darken($red, 10%);
-$textColor: #333;
+$textColor: #565250;
 $accentColor: #fff;
+
+$tabletSize: 800px;
+$mobileSize: 600px;
 
 @font-face {
   font-family: 'Futura Bold Italic font';
@@ -62,4 +65,5 @@ $bentonSans: 'BentonSans-Black';
 	'normalize',
 	'skeleton',
 	'typography',
+	'nav',
 	'home'
