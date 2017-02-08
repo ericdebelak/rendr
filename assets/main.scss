@@ -9,6 +9,7 @@ $red: #ff0d0d;
 $darkRed: darken($red, 10%);
 $textColor: #565250;
 $accentColor: #fff;
+$grey: lighten($textColor, 30%);
 
 $tabletSize: 800px;
 $mobileSize: 600px;
@@ -68,4 +69,4 @@ $bentonSans: 'BentonSans-Black';
 	'nav',
 	'home',
   'home-landing',
-  'post-list'
+  'section'

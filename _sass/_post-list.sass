@@ -1,5 +1,27 @@
 .post-list
 	article
 		float: left
-		width: 30%
-		margin: 1.5%
+		width: 26%
+		margin-right: 10%
+		&:nth-of-type(3n)
+			margin-right: 0
+	h4
+		font-size: 2.2rem
+		a 
+			color: $textColor
+			font-family: $futuraBold
+			text-transform: uppercase
+			&:hover
+				color: $textColor
+
+.pagination
+	display: block
+	clear: both
+	text-align: center
+
+@media (max-width: $tabletSize)
+	.post-list
+		article
+			margin: 0
+			float: none
+			width: 100%
