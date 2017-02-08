@@ -2,18 +2,23 @@
 layout: default
 ---
 
+
 <div class="home">
+    
+    {%include home/home-landing.html%}
 
-  {%include home/home-landing.html%}
+    <div class="container">
 
-  <h1 class="page-heading">Posts</h1>
-  
-  {{ content }}
+    <h1 class="page-heading">Posts</h1>
+    
+    {{ content }}
 
-  <div class="post-list">
-    {% for post in site.posts %}
-      {% include home/post-excerpt.html post=post%}
-    {% endfor %}
+    <div class="post-list">
+      {% for post in site.posts %}
+        {% include home/post-excerpt.html post=post%}
+      {% endfor %}
+    </div>
+
   </div>
 
 </div>
