@@ -56,9 +56,28 @@ $mobileSize: 600px;
   font-style: normal;
 }
 
-$futuraBold: 'Futura Heavy font';
-$futuraItalic: 'Futura Bold Italic font';
-$bentonSans: 'BentonSans-Black';
+@font-face {
+  font-family: 'FuturaBT-Light';
+  src: url('fonts/FuturaBT-Light.woff') format('woff'),
+       url('fonts/FuturaBT-Light.ttf') format('truetype'),
+       url('fonts/FuturaBT-Light.svg#FuturaBT-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'futura light bt';
+  src: url('fonts/futura light bt.eot');
+  src: url('fonts/futura light bt.woff2') format('woff2'),
+       url('fonts/futura light bt.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$futuraBold: "FuturaBT-Heavy", "Futura Heavy font";
+$futuraLight: "FuturaBT-Light", "futura light bt";
+$futuraItalic: "FuturaBT-BoldItalic", "Futura Bold Italic font";
+$bentonSans: "BentonSans-Black";
 
 
 
