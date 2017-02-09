@@ -1,0 +1,12 @@
+---
+title:  "Services"
+layout: page
+permalink: /services/
+---
+<div class='container'>
+	<div class='row'>
+		{% for service in site.services %}
+			{% include home/service-excerpt.html service=service%}
+		{% endfor %}
+	</div>
+</div>
