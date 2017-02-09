@@ -39,3 +39,6 @@ collections:
   our_work:
     output: true
     permalink: /our-work/:title
+  services:
+    output: true
+    permalink: /services/:title
