@@ -6,6 +6,7 @@
 $blue: #79f8ff;
 $darkBlue: darken($blue, 10%);
 $red: #ff0d0d;
+$lightRed: #ff5959;
 $darkRed: darken($red, 10%);
 $textColor: #565250;
 $accentColor: #fff;
@@ -91,5 +92,6 @@ $bentonSans: "BentonSans-Black";
   'home-landing',
   'section',
   'home-tools',
-  'post-list'
+  'post-list',
+  'home-quote'
 

@@ -7,20 +7,12 @@ layout: default
     
     {%include home/home-landing.html%}
     {%include home/home-tools.html%}
+    {%include home/home-quote.html%}
+    {%include home/home-our-work.html%}
+    {%include home/home-posts.html%}
 
-    <div class="container">
-  
-      {{ content }}
 
-      <section class='posts'>
-        <h2 class="section-title">The Blog</h2>
-        <a class="section-link" href="{{site.url}}/blog">All Blog Posts</a>
-        <div class="post-list">
-          {% for post in site.posts limit:3 %}
-            {% include home/post-excerpt.html post=post%}
-          {% endfor %}
-        </div>
-      </section>
+      
 
     </div>
 
