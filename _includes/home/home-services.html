@@ -1,0 +1,11 @@
+<div class="container">
+	<section class='services'>
+		<h2 class="section-title">Services</h2>
+		<a class="section-link" href="{{site.url}}/services.html">See All Services</a>
+		<div class="work-list">
+		  {% for service in site.services limit:3 %}
+		    {% include home/service-excerpt.html service=service%}
+		  {% endfor %}
+		</div>
+	</section>
+</div>

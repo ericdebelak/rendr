@@ -1,0 +1,11 @@
+---
+title:  "Our Work"
+layout: page
+---
+<div class='container'>
+	<div class='row'>
+		{% for work in site.our_work %}
+			{% include home/work-excerpt.html work=work%}
+		{% endfor %}
+	</div>
+</div>
