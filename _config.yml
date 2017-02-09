@@ -34,3 +34,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+collections:
+  our_work:
+    output: true
+    permalink: /our-work/:title

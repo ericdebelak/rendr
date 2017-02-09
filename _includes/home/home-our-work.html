@@ -3,7 +3,9 @@
 		<h2 class="section-title">Our Work</h2>
 		<a class="section-link" href="{{site.url}}/blog">See All Work</a>
 		<div class="work-list">
-
+		  {% for work in site.our_work limit:4 %}
+		    {% include home/work-excerpt.html work=work%}
+		  {% endfor %}
 		</div>
 	</section>
 </div>
