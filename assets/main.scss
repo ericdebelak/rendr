@@ -82,6 +82,19 @@ $futuraLight: "FuturaBT-Light", "futura light bt";
 $futuraItalic: "FuturaBT-BoldItalic", "Futura Bold Italic font";
 $bentonSans: "BentonSans-Black";
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  margin-bottom: 178px !important;
+  box-sizing: border-box;
+}
+
+footer, section, article, div, aside, header {
+  box-sizing: border-box; 
+}
 
 
 @import
