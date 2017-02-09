@@ -11,6 +11,7 @@ $darkRed: darken($red, 10%);
 $textColor: #565250;
 $accentColor: #fff;
 $grey: lighten($textColor, 30%);
+$darkGrey: darken($textColor, 30%);
 
 $laptopSize: 1200px;
 $tabletSize: 800px;
@@ -96,5 +97,6 @@ $bentonSans: "BentonSans-Black";
   'home-quote',
   'home-image',
   'home-cta',
-  'utility'
+  'utility',
+  'footer'
 
