@@ -1,11 +1,11 @@
 <div class="container section">
-	<section class='services'>
+	<section class='home-services'>
 		<h2 class="section-title">Services</h2>
-		<a class="section-link" href="{{site.url}}/services/">See All Services</a>
 		<div class="work-list">
 		  {% for service in site.services limit:3 %}
 		    {% include home/service-excerpt.html service=service%}
 		  {% endfor %}
 		</div>
+		<p class='u-cf center-text u-full-width'><a class="button" href="{{site.url}}/services/">View All Services</a></p>
 	</section>
 </div>
