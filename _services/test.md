@@ -1,5 +1,5 @@
 ---
-title:  "Service"
+title:  "Audits"
 image: /assets/images/audits.png
 layout: services
 ---

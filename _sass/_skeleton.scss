@@ -113,7 +113,7 @@
 }
 
 /* set the margin right for grids */
-.six:nth-of-type(2n+1) {
+.six:nth-of-type(2n+1), .four:nth-of-type(3n+1) {
   margin-left: 0;
 }
 
