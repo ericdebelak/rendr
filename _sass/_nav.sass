@@ -3,6 +3,13 @@
 
 #site-nav
 	float: right
+	a
+		font-size: 1.5rem
+		padding: 0 15px
+		text-transform: uppercase
+		font-family: $futuraBold
+		&:hover
+			color: $lightRed !important
 
 #mobile-icon
 	display: none
@@ -18,17 +25,20 @@
 @media (max-width: $mobileSize)
 	#site-nav
 		max-height: 0
-		background: $red
+		background: $lightRed
 		position: absolute
 		width: 100%
 		z-index: 999
-		transition: max-height 2s linear
+		overflow: hidden
+		transition: max-height 1s linear
 		a
 			color: $accentColor
+			display: block
+			padding: 10px
 			&:hover
-				color: $accentColor
+				color: $textColor !important
 		&.open
 			max-height: 1000px
-			transition: max-height 5s linear
+			transition: max-height 2s linear
 	#mobile-icon
 		display: block

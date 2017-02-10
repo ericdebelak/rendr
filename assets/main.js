@@ -1,3 +1,10 @@
+function closeMenu(event) {
+	var siteNav = document.getElementById('site-nav');
+	if(siteNav.className == "open" && event.target.className !== "page-link" && event.target.id !== 'mobile-icon') {
+		siteNav.className = "";
+	}
+}
+
 function toggleMenu() {
 	var siteNav = document.getElementById('site-nav');
 	if(siteNav.className == "open") {

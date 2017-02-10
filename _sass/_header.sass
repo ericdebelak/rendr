@@ -1,16 +1,6 @@
 .site-header
 	padding: 10px 0
 
-#site-nav
-	a
-		font-size: 1.5rem
-		padding: 0 15px
-		text-transform: uppercase
-		font-family: $futuraBold
-		&:hover
-			color: $lightRed !important
-
-
 .home
 	.site-title
 		display: none
@@ -19,3 +9,8 @@
 		width: 100%
 		a 
 			color: $accentColor
+
+@media (max-width: $mobileSize)
+	.site-header
+		.container
+			width: 100%
