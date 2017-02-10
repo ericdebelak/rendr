@@ -1,6 +1,6 @@
 function closeMenu(event) {
 	var siteNav = document.getElementById('site-nav');
-	if(siteNav.className == "open" && event.target.className !== "page-link" && event.target.id !== 'mobile-icon') {
+	if(siteNav.className == "open" && event.target.className !== "page-link" && event.target.id !== 'mobile-icon' && event.target.tagName !== 'path') {
 		siteNav.className = "";
 	}
 }
