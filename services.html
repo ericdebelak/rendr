@@ -1,12 +1,24 @@
 ---
 title:  "Services"
-layout: page
+layout: page-with-hero
+hero-text: Our services deliver you <span class='underline'>results</span>
+hero-class: services-hero
 permalink: /services/
+body-class: with-hero
 ---
 <div class='container'>
 	<div class='row'>
 		{% for service in site.services %}
-			{% include home/service-excerpt.html service=service%}
+			<article class="u-max-full-width home-services">
+				<a class="service-link" href="{{ service.url | relative_url }}">
+					{% if service.image %}
+						<img src="{{ service.image }}"" alt="{{ service.title | escape }}" class="img-responsive center-block">
+					{% endif %}
+					<h4 class="service-title">{{ service.title | escape }}</h4>
+				</a>
+				<div class="service-text">{{ service.excerpt }}</div>
+			</article>
 		{% endfor %}
+		<p class='center-text'><a class='button' href='/contact-us'>Contact Us</a></p>
 	</div>
 </div>

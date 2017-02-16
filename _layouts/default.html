@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body onClick="closeMenu(event)">
+  <body onClick="closeMenu(event)" class={{page.body-class}}>
     {% if page.url != "/" %}
       {% include header.html %}
     {% endif %}
