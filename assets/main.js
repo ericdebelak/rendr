@@ -14,6 +14,24 @@ function toggleMenu() {
 	}
 }
 
+function showWork(event) {
+	event.preventDefault();
+	var links = document.getElementsByClassName('filter-link');
+	for (var i = 0; i < links.length; i++) {
+		links[i].childNodes[0].className = links[i].childNodes[0].className.replace(/active/g, '');
+	}
+	event.target.className += 'active';
+	var target = event.target.getAttribute('data-target');
+	var tiles = document.getElementsByClassName('work-tile');
+	for (var i = 0; i < tiles.length; i++) {
+		if(tiles[i].className.indexOf(target) > -1) {
+			tiles[i].className = tiles[i].className.replace(/ hidden/g, '');
+		} else {
+			tiles[i].className += ' hidden';
+		}
+	}
+}
+
 /* InstantClick 3.1.0 | (C) 2014 Alexandre Dieulot | http://instantclick.io/license */
 var InstantClick=function(d,e){function w(a){var b=a.indexOf("#");return 0>b?a:a.substr(0,b)}function z(a){for(;a&&"A"!=a.nodeName;)a=a.parentNode;return a}function A(a){var b=e.protocol+"//"+e.host;if(!(b=a.target||a.hasAttribute("download")||0!=a.href.indexOf(b+"/")||-1<a.href.indexOf("#")&&w(a.href)==k)){if(J){a:{do{if(!a.hasAttribute)break;if(a.hasAttribute("data-no-instant"))break;if(a.hasAttribute("data-instant")){a=!0;break a}}while(a=a.parentNode);a=!1}a=!a}else a:{do{if(!a.hasAttribute)break;
 if(a.hasAttribute("data-instant"))break;if(a.hasAttribute("data-no-instant")){a=!0;break a}}while(a=a.parentNode);a=!1}b=a}return b?!1:!0}function t(a,b,c,g){for(var d=!1,e=0;e<B[a].length;e++)if("receive"==a){var f=B[a][e](b,c,g);f&&("body"in f&&(c=f.body),"title"in f&&(g=f.title),d=f)}else B[a][e](b,c,g);return d}function K(a,b,c,g){d.documentElement.replaceChild(b,d.body);if(c){history.pushState(null,null,c);b=c.indexOf("#");b=-1<b&&d.getElementById(c.substr(b+1));g=0;if(b)for(;b.offsetParent;)g+=
