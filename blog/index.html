@@ -4,7 +4,20 @@ title: Blog
 ---
 <div class="post-list">
   {% for post in paginator.posts %}
-    {% include home/post-excerpt.html post=post%}
+    <div class='row'>
+      <div class="six columns">
+        pic
+      </div>
+      <article class="six columns">
+        <h4 class="post-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h4>
+        <p>{{post.excerpt}}</p>
+        <a class="post-link" href="{{ post.url | relative_url }}">READ MORE</a>
+        <hr>
+        <p>By {{post.author}}</p>
+      </article>
+    </div>
   {% endfor %}
 </div>
 
