@@ -4,11 +4,16 @@ title: Blog
 ---
 <div class="post-list">
   {% for post in paginator.posts %}
-    <div class='row'>
+    <div class='row post-row'>
       <div class="six columns">
-        pic
+        <img class='img-responsive' src='{% if post.image%}{{post.image}}{% else %}/assets/images/lets-work.jpg{% endif %}'>
       </div>
       <article class="six columns">
+        <p class='category-name'>
+          {% for category in post.categories %}
+            {{category | replace: "-", " "}}&nbsp;
+          {% endfor %}
+        </p>
         <h4 class="post-title">
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h4>
