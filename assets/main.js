@@ -24,10 +24,9 @@ function showWork(event) {
 	var target = event.target.getAttribute('data-target');
 	var tiles = document.getElementsByClassName('work-tile');
 	for (var i = 0; i < tiles.length; i++) {
+		tiles[i].className += ' hidden';
 		if(tiles[i].className.indexOf(target) > -1) {
 			tiles[i].className = tiles[i].className.replace(/ hidden/g, '');
-		} else {
-			tiles[i].className += ' hidden';
 		}
 	}
 }
