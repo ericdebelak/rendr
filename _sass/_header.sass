@@ -10,17 +10,32 @@
 		a 
 			color: $accentColor
 
+.site-header
+	transition: all 1s ease-in-out
+	top: -50px !important
+
 .with-hero
 	.site-header
-		position: absolute
-		left: 0
-		top: 0
-		width: 100%
 		background: transparent
-		z-index: 9999
 		#site-nav
 			a 
 				color: $accentColor
+
+.site-header.sticky
+	position: fixed !important
+	top: 0 !important
+	left: 0
+	margin-top: 0 !important
+	width: 100%
+	background: #000 !important
+	z-index: 9999
+	.site-title, a
+		transition: none
+		color: $accentColor
+		&:hover
+			color: $accentColor
+
+
 	.post-title
 		font-family: $futuraLight
 

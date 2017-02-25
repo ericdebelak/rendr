@@ -4,7 +4,7 @@
   {% include head.html %}
 
   <body id='body' onClick="closeMenu(event)" class="{{page.body-class}} {{layout.body-class}}" onscroll="scroll()">
-    {% if page.url != "/" %}
+    {% if page.url != "/" and layout.name != 'page-with-hero' %}
       {% include header.html %}
     {% endif %}
 

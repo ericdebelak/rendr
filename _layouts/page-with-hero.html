@@ -1,7 +1,9 @@
 ---
 layout: default
+name: page-with-hero
 ---
 <header class="post-header {{page.hero-class}}">
+	{% include header.html %}
 	<h1 class="post-title center-text inverse-text">{{ page.hero-text }}</h1>
 </header>
 <div class="container">
