@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body onClick="closeMenu(event)" class="{{page.body-class}} {{layout.body-class}}">
+  <body id='body' onClick="closeMenu(event)" class="{{page.body-class}} {{layout.body-class}}" onscroll="scroll()">
     {% if page.url != "/" %}
       {% include header.html %}
     {% endif %}
