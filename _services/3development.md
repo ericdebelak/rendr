@@ -1,6 +1,6 @@
 ---
 title:  "Technical Development"
-image: /assets/images/audits.png
+image: /assets/images/development.png
 layout: services
 permalink: /services/development
 ---
