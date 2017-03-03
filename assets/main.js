@@ -34,10 +34,15 @@ function showWork(event) {
 function scroll() {
 	if(window.outerWidth > 800) {
 		var header = document.getElementById('site-header');
+		var height = header.clientHeight;
+		var body = document.getElementById('body');
 		if(document.getElementById('body').scrollTop > 100) {
 			header.className = 'site-header sticky';
+			body.style.marginTop = height + "px";
+
 		} else {
 			header.className = 'site-header';
+			body.style.marginTop = "0px";
 		}
 	}
 }
