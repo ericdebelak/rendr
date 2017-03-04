@@ -1,6 +1,7 @@
 ---
-title:  "Implementation Consulting"
+title:  "Technology Consulting"
 layout: services
+tagline: "Creating an integrated plan towards developing and distributing software for employees and customers."
 image: /assets/images/cloud.png
 permalink: /services/consulting
 ---

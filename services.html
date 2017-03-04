@@ -6,7 +6,7 @@ hero-class: services-hero
 permalink: /services/
 body-class: with-hero
 ---
-<div class='container'>
+<div class='container services'>
 	<div class='row'>
 		{% for service in site.services %}
 			<article class="u-max-full-width home-services">
@@ -16,6 +16,9 @@ body-class: with-hero
 					{% endif %}
 					<h4 class="service-title">{{ service.title | escape }}</h4>
 				</a>
+				{% if service.tagline %}
+					<span class="service-tagline">{{ service.tagline | escape }}</span>
+				{% endif %}
 				<div class="service-text">{{ service.excerpt }}</div>
 			</article>
 		{% endfor %}

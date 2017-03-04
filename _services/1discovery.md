@@ -1,6 +1,7 @@
 ---
-title:  "Discovery & Strategy"
-image: /assets/images/audits.png
+title:  "Web Application Development"
+image: /assets/images/development.png
+tagline: "Using the power of the web to drive your business to the next level."
 layout: services
 permalink: /services/discovery
 ---

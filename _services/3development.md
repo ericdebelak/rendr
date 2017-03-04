@@ -1,7 +1,8 @@
 ---
-title:  "Technical Development"
-image: /assets/images/development.png
+title:  "Custom Software Development"
+image: /assets/images/wrench.png
 layout: services
+tagline: "Developing software to cater to your needs."
 permalink: /services/development
 ---
 Effective software development means more than just dealing with code. Our expert team of engineers has experience with large data architectures across multiple platforms. We’re familiar with the latest web and mobile technologies and are adept at utilizing a variety of third-party integrations and softwares. 
