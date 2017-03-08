@@ -1,11 +1,11 @@
 <div class="container section">
 	<section class='posts'>
-		<h2 class="section-title">The Blog</h2>
-		<a class="section-link" href="{{site.url}}/blog">All Blog Posts</a>
+		<h2 class="section-title">Our Blog</h2>
 		<div class="post-list">
 		  {% for post in site.posts limit:3 %}
 		    {% include home/post-excerpt.html post=post%}
 		  {% endfor %}
 		</div>
+		<p class='u-cf center-text u-full-width'><a class="button" href="{{site.url}}/blog/">View All Posts</a></p>
 	</section>
 </div>

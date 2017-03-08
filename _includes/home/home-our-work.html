@@ -2,12 +2,12 @@
 	<div class='row'>
 		<section class='our-work'>
 			<h2 class="section-title">Our Work</h2>
-			<a class="section-link" href="{{site.url}}/our-work/">See All Work</a>
 			<div class="work-list">
 			  {% for work in site.our_work limit:4 %}
 			    {% include home/work-excerpt.html work=work%}
 			  {% endfor %}
 			</div>
+			<p class='u-cf center-text u-full-width'><a class="button" href="{{site.url}}/our-work/">View All Work</a></p>
 		</section>
 	</div>
 </div>
