@@ -1,6 +1,6 @@
 ---
 title:  "CheckUp & Choices"
-image: /assets/images/our-work.jpg
+image: /assets/images/c-and-c.png
 layout: our-work
 classes: case-study featured all
 description: Application Development
@@ -28,7 +28,5 @@ Account setting and profile management based on standard, editable fields
 **Responsive**
 
 Consistent user experience across all platforms and screen sizes
-
-**Results**
 
 **Testimonial**

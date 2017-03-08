@@ -1,6 +1,6 @@
 ---
 title:  "Custom Software Development"
-image: /assets/images/audits.png
+image: /assets/images/wrench.png
 layout: services
 permalink: /services/custom-software-development
 ---

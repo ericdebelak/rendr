@@ -1,6 +1,6 @@
 ---
-title:  "Johnny Boards"
-image: /assets/images/our-work.jpg
+title:  "JohnnyBoards"
+image: /assets/images/johnnyboards.png
 layout: our-work
 classes: featured case-studies all
 description: Application Development
@@ -34,14 +34,11 @@ Responsive
 
 - Consistent user experience across all platforms and screen sizes
 
-**Results**
-
-
 **Testimonial**
 
-> After years of maintaining clunky Excel spreadsheets and handwritten notes to keep things organized, I knew there had to be a better way. I had a vague idea to create some sort of database to manage all these items, but wasn’t sure how to put it all together. 
+><cite>After years of maintaining clunky Excel spreadsheets and handwritten notes to keep things organized, I knew there had to be a better way. I had a vague idea to create some sort of database to manage all these items, but wasn’t sure how to put it all together.</cite>
 
->I approached Rendr with this idea, and after explaining my problem and the process I had been using to manage my business, they were immediately able to conceptualize what I needed. After several months of beta testing and trials, Rendr created a fully-fledged database cloud application that allows me to effectively and efficiently manage all aspects of my business. Not only does it save me over 40 hours of work per month, but it is now in the early stages of development to sell as an industry service tool for advertisers nationwide. 
+><cite>I approached Rendr with this idea, and after explaining my problem and the process I had been using to manage my business, they were immediately able to conceptualize what I needed. After several months of beta testing and trials, Rendr created a fully-fledged database cloud application that allows me to effectively and efficiently manage all aspects of my business. Not only does it save me over 40 hours of work per month, but it is now in the early stages of development to sell as an industry service tool for advertisers nationwide.</cite>
 
 <cite>Ruben Garcia</cite>
 
