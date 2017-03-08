@@ -1,8 +1,10 @@
 ---
 layout: default
 body-class: with-hero
+no-header: true
 ---
 <header class="post-header" {% if page.image %}style="background: url({{ page.image }}); background-postition: center; background-size: cover;"{% endif %}>
+ {% include header.html %}
 </header>
 <div class="container">
 	<h1 class="center-text">{{ page.title }}</h1>

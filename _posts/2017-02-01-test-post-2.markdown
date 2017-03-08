@@ -5,6 +5,7 @@ date:   2017-02-01 14:34:55 -0700
 categories: web-development
 image: /assets/images/our-work.jpg
 author: Jay Renteria
+author-title: Senior Developer
 ---
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 
