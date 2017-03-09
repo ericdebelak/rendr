@@ -1,6 +1,6 @@
 ---
 title:  "Mobile Application Development"
-image: /assets/images/phone.png
+image: /assets/images/phone.svg
 layout: services
 permalink: /services/mobile-application-development
 ---

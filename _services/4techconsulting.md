@@ -1,6 +1,6 @@
 ---
 title:  "Technology Consulting"
-image: /assets/images/audits.png
+image: /assets/images/audits.svg
 layout: services
 permalink: /services/technology-consulting
 ---

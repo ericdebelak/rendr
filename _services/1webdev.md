@@ -1,6 +1,6 @@
 ---
 title:  "Web Application Development"
-image: /assets/images/cloud.png
+image: /assets/images/cloud.svg
 layout: services
 permalink: /services/web-application-development
 ---

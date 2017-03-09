@@ -36,10 +36,11 @@ function scroll() {
 		var header = document.getElementById('site-header');
 		var height = header.clientHeight;
 		var body = document.getElementById('body');
-		if(document.getElementById('body').scrollTop > 100) {
+		if(document.getElementById('body').scrollTop > 120) {
 			header.className = 'site-header sticky';
-			body.style.marginTop = height + "px";
-
+			if(body.className.indexOf('with-hero') == -1) {
+				body.style.marginTop = (height + 45) + "px";
+			}
 		} else {
 			header.className = 'site-header';
 			body.style.marginTop = "0px";
