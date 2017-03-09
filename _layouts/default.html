@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body id='body' onClick="closeMenu(event)" class="{{page.body-class}} {{layout.body-class}}" onscroll="scroll()">
+  <body id='body' onClick="closeMenu(event)" class="{{page.body-class}} {{layout.body-class}}" onscroll="scroll()" onload="bodyOnLoad()">
     {% if page.url != "/" and layout.name != 'page-with-hero' and layout.no-header != true %}
       {% include header.html %}
     {% endif %}
