@@ -90,6 +90,34 @@ function detectIE() {
   return false;
 }
 
+function contactForm(event) {
+	event.preventDefault();
+	document.getElementById('send-button').value = "Sending...";
+	var name = event.target.name.value;
+	var email = event.target._replyto.value;
+	var body = event.target.body.value;
+
+	var xhttp = new XMLHttpRequest();
+  	xhttp.onreadystatechange = function() {
+    	if (this.readyState == 4 && this.status == 200) {
+      		document.getElementById('form-response').innerHTML = JSON.parse(this.response).success;
+      		document.getElementById('send-button').value = "Send";
+    	} else if (this.status >= 400) {
+    		document.getElementById('form-response').innerHTML = JSON.parse(this.response).error;
+    		document.getElementById('send-button').value = "Send";
+    		console.log(this.response);
+    	}
+  	};
+  	var jsonBody = {
+  		"name": name,
+  		"email": email,
+  		"body": body
+  	}
+	xhttp.open("POST", "https://formspree.io/s7v8x4i8f9n9r8r0@11online.slack.com", true);
+	xhttp.setRequestHeader("Content-type", "application/json");
+	xhttp.send(JSON.stringify(jsonBody));
+}
+
 /* InstantClick 3.1.0 | (C) 2014 Alexandre Dieulot | http://instantclick.io/license */
 var InstantClick=function(d,e){function w(a){var b=a.indexOf("#");return 0>b?a:a.substr(0,b)}function z(a){for(;a&&"A"!=a.nodeName;)a=a.parentNode;return a}function A(a){var b=e.protocol+"//"+e.host;if(!(b=a.target||a.hasAttribute("download")||0!=a.href.indexOf(b+"/")||-1<a.href.indexOf("#")&&w(a.href)==k)){if(J){a:{do{if(!a.hasAttribute)break;if(a.hasAttribute("data-no-instant"))break;if(a.hasAttribute("data-instant")){a=!0;break a}}while(a=a.parentNode);a=!1}a=!a}else a:{do{if(!a.hasAttribute)break;
 if(a.hasAttribute("data-instant"))break;if(a.hasAttribute("data-no-instant")){a=!0;break a}}while(a=a.parentNode);a=!1}b=a}return b?!1:!0}function t(a,b,c,g){for(var d=!1,e=0;e<B[a].length;e++)if("receive"==a){var f=B[a][e](b,c,g);f&&("body"in f&&(c=f.body),"title"in f&&(g=f.title),d=f)}else B[a][e](b,c,g);return d}function K(a,b,c,g){d.documentElement.replaceChild(b,d.body);if(c){history.pushState(null,null,c);b=c.indexOf("#");b=-1<b&&d.getElementById(c.substr(b+1));g=0;if(b)for(;b.offsetParent;)g+=
