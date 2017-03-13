@@ -16,3 +16,20 @@ hr
 	margin-top: 1.2rem
 	margin-bottom: 1rem
 	border-top: 1px solid $textColor
+
+blockquote
+	font-style: italic
+	&::before
+		color: #ccc
+		content: open-quote
+		font-size: 4em
+		line-height: 0.1em
+		margin-right: 0.25em
+		vertical-align: -0.4em
+	&::after
+		color: #ccc
+		content: close-quote
+		font-size: 4em
+		line-height: 0.1em
+		margin-right: 0.25em
+		vertical-align: -0.4em

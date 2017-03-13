@@ -1,14 +1,12 @@
 ---
 layout: default
-body-class: with-hero
-no-header: true
 ---
-<header class="post-header" {% if page.image %}style="background: url({{ page.image }}); background-postition: center; background-size: cover;"{% endif %}>
- {% include header.html %}
-</header>
 <div class="container">
-	<h1 class="center-text">{{ page.title }}</h1>
+	<h1 class="center-text margin-top">{{ page.title }}</h1>
 	<h5 class="work-description center-text">{{page.description}}</h5>
+	{% if page.image %}
+		<img src={{page.image}} class='center-text img-responsive margin-top margin-bottom'>
+	{% endif %}
 	<article class="post">
 
 	  <div class="post-content">
@@ -16,7 +14,7 @@ no-header: true
 	  </div>
 
 	</article>
-	<h3 class='center-text'>Related Projects</h3>
+	<h3 class='center-text clearfix'>Related Projects</h3>
 	<div class='row'>
 		{% assign counter=0 %}
 		{% for work in site.our_work %}

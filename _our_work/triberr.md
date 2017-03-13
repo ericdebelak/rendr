@@ -42,8 +42,6 @@ Responsive
 
 **Testimonial**
 
-><cite>Our team worked with Rendr on several enhancements to our existing app which serves over 100,000 users, as well as the development of a substantial marketing platform. They had a clear grasp of the technology and were able to provide immediate value. More importantly, working with them felt as if they were really an extension of our own team rather than just a vendor. I'd recommend Rendr to any company that is seeking a development partner that can help move the needle forward.</cite>
+<blockquote>Our team worked with Rendr on several enhancements to our existing app which serves over 100,000 users, as well as the development of a substantial marketing platform. They had a clear grasp of the technology and were able to provide immediate value. More importantly, working with them felt as if they were really an extension of our own team rather than just a vendor. I'd recommend Rendr to any company that is seeking a development partner that can help move the needle forward.</blockquote>
 
-<cite>Charlie Patel</cite>
-
-<cite>CEO, Triberr</cite>
+<p class="center-text">Charlie Patel<br>CEO, Triberr</p>
