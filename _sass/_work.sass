@@ -19,6 +19,27 @@
 .work-link:nth-child(2n)
 	clear: both
 
+.work-link-image
+	background-position: top center !important
+	background-size: cover !important
+	padding-bottom: 50%
+	float: left
+	width: 100%
+	margin: 10px 0 25px
+	position: relative
+	&::before
+		content: ""
+		position: absolute
+		transition: all .2s ease-in-out
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		background: transparent
+		z-index: 1
+	&:hover::before
+		background: transparentize($darkGrey, .8)
+
 .filter-link
 	color: $textColor
 	h5
