@@ -2,7 +2,7 @@
 title:  "Triberr"
 image: /assets/images/triberr.png
 layout: our-work
-classes: featured all
+classes: featured all case-study
 description: Application Development
 ---
 Triberr is a platform for bloggers, influencers, marketers, and brands to increase content sharing, engagement, and followers. At its core, it is a group-sharing of content. Triberr allows bloggers, influencers, and marketers to grow their network by finding similar bloggers and influencers and creating what is known as a "tribe." It also connects brands and agencies with industry influencers who can create a targeted campaign to promote brand awareness. 
