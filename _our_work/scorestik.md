@@ -37,5 +37,3 @@ Responsive
 
 - Consistent user experience across all platforms and screen sizes
 - Simple touch screen control
-
-**Testimonial**

@@ -1,6 +1,6 @@
 ---
 title:  "CheckUp & Choices"
-image: /assets/images/c-and-c.png
+image: /assets/images/checkupandchoicesscreenshot.png
 layout: our-work
 classes: case-study featured all
 description: Application Development
@@ -28,5 +28,3 @@ Rendr created a reporting mechanism to pull data for internal research and partn
 **Responsive**
 
 Rendr has preserved a consistent user experience across all platforms and screen sizes.
-
-**Testimonial**
