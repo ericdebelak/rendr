@@ -2,7 +2,7 @@
 title:  "CheckUp & Choices"
 image: /assets/images/checkupandchoicesscreenshot.png
 layout: our-work
-classes: case-study featured all
+classes: featured all
 description: Application Development
 ---
 CheckUp & Choices is a free survey screener designed to give users feedback on their alcohol consumption habits. Featured on NPR, The New York Times, The Wall Street Journal, and Men's Health Magazine, CheckUp & Choices offers an objective, non-judgmental screening course that allows you to consider what, if anything, you may want to change about your drinking. It offers resources and tools on how to cut back or stop drinking altogether based on your feedback, and can reduce the chance of relapse.
