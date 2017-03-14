@@ -25,17 +25,15 @@ or
 var alias = this;
 {% endhighlight %}
 
-<code>this</code>' scope in JavaScript can be confusing and frustrating if you don't realize that <code>this</code> frequently gets overwritten. Let me give you a few examples of when <code>this</code> changes based on scope and how to avoid any issues.
-
-The most common instance I run into while writing JavaScript, especially React and Node, is callback functions.
+The <a href="https://en.wikipedia.org/wiki/Scope_(computer_science)" target="_blank">scope</a> of `this` in JavaScript can be confusing and frustrating if you don't realize that `this` frequently gets overwritten. Let me give you a few examples of when `this` changes based on scope and how to avoid any issues.
 
 ### Callback Functions
 
-Callback functions, or higher-order functions, are basically functions that are executed in other functions. In JavaScript functions are first-class objects, and can be used as objects, which means they can be passed as parameters, stored as variables and even return them to be executed in other functions.
+<a href="https://en.wikipedia.org/wiki/Callback_(computer_programming)" target="_blank">Callback functions</a>, or higher-order functions, are functions that are executed in other functions. In JavaScript, functions are first-class objects, and can be used as objects - which means they can be passed as parameters, stored as variables and even be returned to be executed in other functions.
 
-When we are creating React components, they are actually JavaScript classes. Inside the class <code>this</code> will typically refer to the whole object, with all it's member variables and methods. But as soon as one of your methods uses a callback function, anything from a simple <code>setTimeout()</code> to <code>forEach()</code>, the callback function overwrites <code>this</code>.
+In <a href="https://en.wikipedia.org/wiki/Object-oriented_programming" target="_blank">Object-Oriented</a> JavaScript, `this` will typically refer to the whole object, with all its member variables and methods. But as soon as one of your methods uses a callback function, for example, anything from a simple `setTimeout()` to a `forEach()`, the callback function overwrites `this`.
 
-So let's say we are using <code>setTimeout()</code> and need access to one of the object's methods inside the callback function (which is the first parameter in setTimeout)? Well, the solution is what we have before. <code>var that = this;</code>
+So let's say we use `setTimeout()` and need access to one of the object's methods inside the callback function (which is the first parameter in setTimeout). The solution is what we have before: `var that = this;`.
 
 The whole code block might look like this:
 
@@ -54,7 +52,7 @@ onClick() {
 
 ### Callback Functions in Iterative Functions
 
-Another very common use case is iterative functions, like <code>forEach()</code>. Each iteration calls a callback function, so again, <code>this</code> gets overwritten inside the callback function's scope.
+Another very common use case is <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration" target="_blank">iterative functions</a>, like `forEach()`. Each iteration calls a callback function, so again, `this` gets overwritten inside the callback function's scope.
 
 {% highlight javascript %}
 
@@ -68,5 +66,5 @@ componentDidMount() {
 }
 {% endhighlight %}
 
-Callback functions are very common in some libraries, like jQuery. jQuery ajax calls also overwrite <code>this</code>. If you are in doubt, you can always <code>console.log(this);</code> just to see what <code>this</code> is. Thankfully, this issue is very easy to solve.
+Callback functions are very common in some libraries, like jQuery. jQuery ajax calls also overwrite `this`. If you are in doubt, you can always `console.log(this);` just to see what `this` is.
 
