@@ -12,6 +12,7 @@
 	.title
 		position: absolute
 		max-width: 500px
+		width: 100%
 		top: 50%
 		left: 50%
 		transform: translate(-50%, -50%)
@@ -42,3 +43,11 @@
 		background: url("/assets/images/mobile-hero-background.jpg")
 		background-size: cover
 		background-position: center
+
+@media (max-width: $mobileSize)
+	.landing .title
+		max-width: 90%
+		h1
+			font-size: 6em
+		span
+			font-size: 1.5em
