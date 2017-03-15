@@ -24,6 +24,7 @@ paginate: 9
 paginate_path: "blog/:num/"
 disqus:
   shortname: rendrconsulting
+google_analytics: UA-93796210-1
 
 # Build settings
 markdown: kramdown
