@@ -1,6 +1,6 @@
 ---
 title:  "ScoreStik"
-image: /assets/images/scorestik.png
+image: /assets/images/scorestikscreenshots.png
 layout: our-work
 classes: case-study all
 description: Application Development
@@ -14,6 +14,8 @@ ScoreStik approached Rendr to come on as a technology partner to build upon what
 **Development**
 
 Using Node.js, Express.js, and Socket.io, Rendr developed a completely new technology with the ScoreStik device. The device and mobile application allow for easy to use screen control for the scorekeeper, and since partnering with Rendr, ScoreStik now supports up to five different sports/activities, each with their own unique interface and tracking capabilities. 
+
+<img class='img-responsive' src="{{site.url}}/assets/images/scorestik.png">
 
 **Key Features**
 
