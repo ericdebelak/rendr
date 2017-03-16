@@ -1,6 +1,6 @@
 ---
 title:  "JohnnyBoards"
-image: /assets/images/johnny-boards-logo.png
+image: /assets/images/johnny-boards-logo.jpg
 thumbnail: /assets/images/jbthumbnail.png
 layout: our-work
 classes: case-study all
