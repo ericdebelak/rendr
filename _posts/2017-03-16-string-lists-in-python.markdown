@@ -27,6 +27,6 @@ if any(word in test['email'] for word in test_list):
 
 It's as simple as that. What this does is checks if any of the words in our test data 'email' match any words defined in our `test_list`. If so, we set `test_user` to true. 
 
-For more reading on the `any()` (and `all()`) functions in Python, check out<a href="https://leemendelowitz.github.io/blog/any-all-in-python.html" target="_blank">this post</a> that goes into a bit more detail. 
+For more reading on the `any()` (and `all()`) functions in Python, check out <a href="https://leemendelowitz.github.io/blog/any-all-in-python.html" target="_blank">this post</a> that goes into a bit more detail. 
 
 
