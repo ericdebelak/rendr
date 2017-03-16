@@ -1,6 +1,7 @@
 ---
 title:  "Triberr"
-image: /assets/images/triberr.png
+image: /assets/images/triberr.jpg
+thumbnail: /assets/images/triberrthumbnail.png
 layout: our-work
 classes: featured all
 description: Application Development

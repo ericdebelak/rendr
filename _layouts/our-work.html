@@ -21,7 +21,7 @@ layout: default
 			{% if page != work and counter < 3%}
 				{% assign counter=counter | plus:1 %}   
 				<article class="four columns u-max-full-width work-{{counter}}">
-					<a class="work-link-image" href="{{ work.url | relative_url }}" style="background: url({{ work.image }});">
+					<a class="work-link-image" href="{{ work.url | relative_url }}" style="background: url({{ work.thumbnail }});">
 					</a>
 					<a class="work-link" href="{{ work.url | relative_url }}">
 						<h5 class='no-bottom-margin black-color'>{{work.title}}</h5>

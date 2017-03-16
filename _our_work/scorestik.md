@@ -1,6 +1,7 @@
 ---
 title:  "ScoreStik"
 image: /assets/images/scorestikscreenshots.png
+thumbnail: /assets/images/ssthumbnail.png
 layout: our-work
 classes: case-study all
 description: Application Development

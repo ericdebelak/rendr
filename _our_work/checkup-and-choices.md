@@ -1,6 +1,7 @@
 ---
 title:  "CheckUp & Choices"
 image: /assets/images/checkupandchoicesscreenshot.png
+thumbnail: /assets/images/ccthumbnail.png
 layout: our-work
 classes: featured all
 description: Application Development

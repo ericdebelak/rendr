@@ -1,6 +1,7 @@
 ---
 title:  "JohnnyBoards"
-image: /assets/images/johnnyboards.png
+image: /assets/images/johnny-boards-logo.png
+thumbnail: /assets/images/jbthumbnail.png
 layout: our-work
 classes: case-study all
 description: Application Development
@@ -14,6 +15,8 @@ Rendr and JohnnyBoards came together to create a product to allow for contract a
 **Development**
 
 Using Laravel 4, Rendr developed a completely customizable database that allows JohnnyBoards to manage and analyze contracts, inventory, and oversee customer interactions and data throughout the customer lifecycle. 
+
+<img src="/assets/images/johnny-boards.jpg" class='img-responsive'>
 
 **Key Features**
 

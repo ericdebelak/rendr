@@ -21,7 +21,7 @@ body-class: with-hero
 </div>
 {% for work in site.our_work %}
 	<a class="work-link" href="{{ work.url | relative_url }}">
-		<div class='work-tile {{work.classes}} {% unless work.classes contains "featured" %}hidden{%endunless%}' style='background: url({{ work.image }}); background-size: cover; background-position: top center;'></div>
+		<div class='work-tile {{work.classes}} {% unless work.classes contains "featured" %}hidden{%endunless%}' style='background: url({{ work.thumbnail }}); background-size: cover; background-position: top center;'></div>
 	</a>
 {% endfor %}
 <p>&nbsp;</p>
