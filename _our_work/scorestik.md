@@ -40,3 +40,9 @@ Responsive
 
 - Consistent user experience across all platforms and screen sizes
 - Simple touch screen control
+
+**Testimonial**
+
+<blockquote>Working with Rendr was a tremendous boost for our product. They are conscientious, knowledgable, and efficient. From web app architecture and test automation to responsive front ends, app and api development, the developers at Rendr blended into our team and delivered consistent, quality product every time. From the contract perspective, doing business with this team is flexible, honest, and enjoyable. These are good people to work with.</blockquote>
+
+<p class="center-text">Gordon Klein<br>CEO, ScoreStik</p>
