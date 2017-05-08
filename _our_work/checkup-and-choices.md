@@ -34,4 +34,4 @@ Rendr has preserved a consistent user experience across all platforms and screen
 
 <blockquote>We brought on the Rendr team when we needed to accelerate ongoing development on our application. They were responsive, fast learners, and immediately contributed by adding new functionality and creating partner implementations and reports. The partnership with Rendr has allowed CheckUp & Choices to successfully launch new products and partner implementations, helping our company expand its offerings. Rendr has become our technology partner and an indispensable member of our team.</blockquote>
 
-<p class="center-text">Caton Burwell<br>CEO, CheckUp & Choices"</p>
+<p class="center-text">Caton Burwell<br>CEO, CheckUp & Choices</p>
