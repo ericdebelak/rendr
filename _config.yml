@@ -33,6 +33,7 @@ gems:
   - jekyll-feed
   - jekyll-paginate
   - amp-jekyll
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
