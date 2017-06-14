@@ -3,6 +3,7 @@ title:  "Technology Consulting"
 image: /assets/images/audits.svg
 layout: services
 permalink: /services/technology-consulting
+canonical_url: 'https://rendrconsulting.com/services/'
 ---
 **Creating an integrated plan towards developing and distributing software for employees and customers**
 

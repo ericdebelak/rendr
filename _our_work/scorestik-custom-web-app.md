@@ -6,6 +6,7 @@ layout: our-work
 classes: case-study all
 description: Application Development
 redirect_from: "/our-work/scorestik"
+canonical_url: 'https://rendrconsulting.com/our-work/'
 ---
 ScoreStik is a scoreboard system that can be run from any mobile device and is optimized to make scorekeeping easy. A ScoreStik device connects to any TV or Projector with a simple HDMI cable, and the scorekeeper connects their iOS or Android device to the secure ScoreStik Wi-Fi. Once connected, the scorekeeper can run the game from an easy, touch-screen interface on their own phone or tablet. With this functionality, ScoreStik automatically creates a digital scoreboard network in any gym, making the current and expensive scoreboard technology obsolete. 
 

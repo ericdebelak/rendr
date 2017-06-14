@@ -3,6 +3,7 @@ title:  "Web Application Development"
 image: /assets/images/cloud.svg
 layout: services
 permalink: /services/web-application-development
+canonical_url: 'https://rendrconsulting.com/services/'
 ---
 Using the power of the web to drive your business to the next level
 

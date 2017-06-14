@@ -6,6 +6,7 @@ layout: our-work
 classes: featured all
 description: Application Development
 redirect_from: "/our-work/triberr"
+canonical_url: 'https://rendrconsulting.com/our-work/'
 ---
 Triberr is a platform for bloggers, influencers, marketers, and brands to increase content sharing, engagement, and followers. At its core, it is a group-sharing of content. Triberr allows bloggers, influencers, and marketers to grow their network by finding similar bloggers and influencers and creating what is known as a "tribe." It also connects brands and agencies with industry influencers who can create a targeted campaign to promote brand awareness. 
 

@@ -3,6 +3,7 @@ title:  "Mobile Application Development"
 image: /assets/images/phone.svg
 layout: services
 permalink: /services/mobile-application-development
+canonical_url: 'https://rendrconsulting.com/services/'
 ---
 **Developing profit-generating mobile apps**
 

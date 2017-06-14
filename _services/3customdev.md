@@ -3,6 +3,7 @@ title:  "Custom Software Development"
 image: /assets/images/wrench.svg
 layout: services
 permalink: /services/custom-software-development
+canonical_url: 'https://rendrconsulting.com/services/'
 ---
 **Developing software to cater to your business**
 
