@@ -36,6 +36,8 @@ defaults:
       path: ""
     values:
       image: /assets/images/logo.png
+facebook:
+  app_id: 1527979110606748
 # Build settings
 markdown: kramdown
 theme: minima
