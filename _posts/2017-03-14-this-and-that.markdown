@@ -6,7 +6,7 @@ description: "Understanding This and That in JavaScript for software and web app
 date:   2017-03-14 00:00:00 -0700
 categories: web-development
 image: /assets/images/javascript-blog.png
-excerpt: "When I started doing full-stack JavaScript development, I started seeing some confusing variable declarations."
+display_excerpt: "When I started doing full-stack JavaScript development, I started seeing some confusing variable declarations."
 author: Eric Debelak
 author-title: Senior Developer
 ---
