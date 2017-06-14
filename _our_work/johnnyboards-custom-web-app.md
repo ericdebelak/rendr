@@ -5,6 +5,7 @@ thumbnail: /assets/images/jbthumbnail.png
 layout: our-work
 classes: case-study all
 description: Application Development
+redirect_from: "/our-work/johnny-boards"
 ---
 JohnnyBoards is an advertising company that places indoor advertising in locations around New Mexico. Offering a network for small business and public service awareness campaigns around the state, JohnnyBoards utilizes its unique positioning to engage viewers’ attention for up to four minutes. 
 
