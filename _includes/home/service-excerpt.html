@@ -1,9 +1,9 @@
 <article class="four columns u-max-full-width home-services">
 	<a class="service-link" href="{{ service.url | relative_url }}">
 		{% if service.image %}
-			<img src="{{ service.image }}" alt="{{ service.title | escape }}" class="img-responsive center-block service-image">
+			<img src="{{ service.image }}" alt="{{ service.display_title | escape }}" class="img-responsive center-block service-image">
 		{% endif %}
-		<h4 class="service-title">{{ service.title | escape }}</h4>
+		<h4 class="service-title">{{ service.display_title | escape }}</h4>
 	</a>
 	<div class="service-text">{{ service.excerpt }}</div>
 </article>
