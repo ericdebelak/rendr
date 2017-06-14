@@ -31,10 +31,11 @@ google_analytics: UA-93796210-1
 webmaster_verifications:
   google: sP3dYu3cLfVvtAPx-Occ9K4Z21-MbO2aPo6nlZZ0EYo
 logo: "/assets/images/logo.jpg"
-image:
-  path: "/assets/images/logo.jpg"
-  height: 100
-  width: 100
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/logo.jpg
 
 # Build settings
 markdown: kramdown
