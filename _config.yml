@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Rendr Consulting | A web application development company
+title: Rendr Consulting | A web application and mobile app development company
 display_title: Rendr Consulting
 seo:
-  name: Rendr Consulting | A web application development company
+  name: Rendr Consulting | A web application and mobile app development company
 email: alonso@rendrconsulting.com
 description: > # this means to ignore newlines until "baseurl:"
   At Rendr Consulting, we specialize in custom web application development and mobile app development. Built to help you grow.
