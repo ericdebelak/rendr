@@ -5,7 +5,7 @@ image: /assets/images/checkupandchoicesscreenshot.png
 thumbnail: /assets/images/ccthumbnail.png
 layout: our-work
 classes: featured all
-description: Application Development
+description: See our custom web application work for CheckUp & Choices, a software-as-a-service product for addiction management and education.
 redirect_from: "/our-work/checkup-and-choices"
 canonical_url: "https://rendrconsulting.com/our-work/"
 ---

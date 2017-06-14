@@ -5,7 +5,7 @@ image: /assets/images/johnny-boards-logo.jpg
 thumbnail: /assets/images/jbthumbnail.png
 layout: our-work
 classes: case-study all
-description: Application Development
+description: See our custom web application work for JohnnyBoards. We developed a custom database for the indoor advertising industry.
 redirect_from: "/our-work/johnny-boards"
 canonical_url: 'https://rendrconsulting.com/our-work/'
 ---
