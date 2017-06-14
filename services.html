@@ -14,7 +14,7 @@ body-class: with-hero
 					{% if service.image %}
 						<img src="{{ service.image }}"" alt="{{ service.display_title | escape }}" class="img-responsive center-block service-image">
 					{% endif %}
-					<h4 class="service-title">{{ service.title | escape }}</h4>
+					<h4 class="service-title">{{ service.display_title | escape }}</h4>
 				</a>
 				{% if service.tagline %}
 					<span class="service-tagline">{{ service.tagline | escape }}</span>
