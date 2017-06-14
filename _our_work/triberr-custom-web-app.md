@@ -1,12 +1,13 @@
 ---
-title:  "Triberr"
+title:  "Rendr Consulting | Triberr custom web application"
 image: /assets/images/triberr.jpg
 thumbnail: /assets/images/triberrthumbnail.png
 layout: our-work
 classes: featured all
-description: Application Development
+description: See our custom web application work for Triberr.com, a platform for content influencers.
 redirect_from: "/our-work/triberr"
 canonical_url: 'https://rendrconsulting.com/our-work/'
+permalink: /our-work/triberr-custom-web-app/
 ---
 Triberr is a platform for bloggers, influencers, marketers, and brands to increase content sharing, engagement, and followers. At its core, it is a group-sharing of content. Triberr allows bloggers, influencers, and marketers to grow their network by finding similar bloggers and influencers and creating what is known as a "tribe." It also connects brands and agencies with industry influencers who can create a targeted campaign to promote brand awareness. 
 
