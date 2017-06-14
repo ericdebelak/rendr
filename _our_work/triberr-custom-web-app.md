@@ -1,10 +1,11 @@
 ---
-title:  "Rendr Consulting | Triberr custom web application"
+title:  "Triberr"
+og:title: "Rendr Consulting | Triberr custom web application"
 image: /assets/images/triberr.jpg
 thumbnail: /assets/images/triberrthumbnail.png
 layout: our-work
 classes: featured all
-description: See our custom web application work for Triberr.com, a platform for content influencers.
+description: See our custom web application work for Triberr, a platform for content influencers.
 redirect_from: "/our-work/triberr"
 canonical_url: 'https://rendrconsulting.com/our-work/'
 permalink: /our-work/triberr-custom-web-app/
