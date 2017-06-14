@@ -1,5 +1,5 @@
 ---
-title: "Rendr Consulting | Triberr custom web application"
+title: "Rendr Consulting - Triberr custom web application"
 display_title:  "Triberr"
 image: /assets/images/triberr.jpg
 thumbnail: /assets/images/triberrthumbnail.png

@@ -1,5 +1,5 @@
 ---
-title: "Rendr Consulting | JohnnyBoards custom web application"
+title: "Rendr Consulting - JohnnyBoards custom web application"
 display_title:  "JohnnyBoards"
 image: /assets/images/johnny-boards-logo.jpg
 thumbnail: /assets/images/jbthumbnail.png

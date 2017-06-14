@@ -1,5 +1,5 @@
 ---
-title: "Rendr Consulting | ScoreStik custom web application"
+title: "Rendr Consulting - ScoreStik custom web application"
 display_title:  "ScoreStik"
 image: /assets/images/scorestikscreenshots.png
 thumbnail: /assets/images/ssthumbnail.png

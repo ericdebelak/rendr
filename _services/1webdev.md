@@ -1,5 +1,5 @@
 ---
-title:  "Rendr Consulting | A web application and mobile app development company"
+title:  "Rendr Consulting - A web application and mobile app development company"
 display_title: "Web Application Development"
 description: "At Rendr Consulting we specialize in custom web application development, mobile app development, custom software development, and technology consulting."
 image: /assets/images/cloud.svg
