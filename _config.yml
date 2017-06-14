@@ -30,12 +30,12 @@ disqus:
 google_analytics: UA-93796210-1
 webmaster_verifications:
   google: sP3dYu3cLfVvtAPx-Occ9K4Z21-MbO2aPo6nlZZ0EYo
-logo: "/assets/images/logo.jpg"
+logo: "/assets/images/logo.png"
 defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/logo.jpg
+      image: /assets/images/logo.png
 # Build settings
 markdown: kramdown
 theme: minima
