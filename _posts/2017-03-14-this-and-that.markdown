@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "This and That in JavaScript"
+title: "Web application development - This and That in JavaScript"
+display title:  "This and That in JavaScript"
+description: "Understanding This and That in JavaScript for software and web application development."
 date:   2017-03-14 00:00:00 -0700
 categories: web-development
 image: /assets/images/javascript-blog.png

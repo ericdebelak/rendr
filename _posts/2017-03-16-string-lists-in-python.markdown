@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Comparing String Lists in Python"
+title:  "Web application development - Comparing string lists in Python"
+display_title: "Comparing String Lists in Python"
+description: "Understanding how to compare string lists in Python for software and web application development."
 date:   2017-03-16 00:00:00 -0700
 categories: web-development
 image: /assets/images/python-blog.png

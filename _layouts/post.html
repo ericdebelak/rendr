@@ -6,13 +6,13 @@ comments: true
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="post-header center-text">
-      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <h1 class="post-title" itemprop="name headline">{{ page.display_title | escape }}</h1>
       <p class='category-name'>
           {% for category in page.categories %}
             {{category | replace: "-", " "}}&nbsp;
           {% endfor %}
         </p>
-      <img src="{{ page.image }}"" class='post-image img-responsive' alt="{{ page.title | escape }}">
+      <img src="{{ page.image }}"" class='post-image img-responsive' alt="{{ page.display_title | escape }}">
     </header>
 
     <div class="post-content" itemprop="articleBody">

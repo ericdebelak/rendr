@@ -15,7 +15,7 @@ title: Blog
           {% endfor %}
         </p>
         <h4 class="post-title">
-          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <a href="{{ post.url | relative_url }}">{{ post.display_title | escape }}</a>
         </h4>
         <p>{{post.excerpt}}</p>
         <a class="post-link" href="{{ post.url | relative_url }}">READ MORE</a>
