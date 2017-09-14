@@ -1,4 +1,6 @@
 <article class="six columns u-max-full-width">
-	<a class="work-link" href="{{ work.url | relative_url }}" style="background: url({{ work.thumbnail }});">
+	<a class="work-link" href="{{ work.url | relative_url }}" style="background-image: url({{ work.thumbnail }});">
+		<h3 class="work-link-title">{{work.display_title}}</h3>
+		<p class="work-link-tagline">{{work.display_tagline}}</p>
 	</a>
 </article>

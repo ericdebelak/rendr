@@ -6,12 +6,16 @@
 .work-tile
 	float: left
 	width: 50%
-	padding-bottom: 30%
+	padding: 10% 0
 	-webkit-transition: all 1s ease-in-out
 	-moz-transition: all 1s ease-in-out
 	-ms-transition: all 1s ease-in-out
 	transition: all 1s ease-in-out
 	opacity: 1
+	color: white
+	text-align: center
+	overflow: hidden
+	white-space: nowrap
 	&.hidden
 		width: 0
 		opacity: 0
@@ -55,3 +59,17 @@
 
 .work-description
 	color: $grey
+
+@media (max-width: $tabletSize)
+	.our-work-page .work-link 
+		.work-link-title
+			font-size: 2.5rem
+		.work-link-tagline
+			font-size: 1.5rem
+
+@media (max-width: $mobileSize)
+	.our-work-page .work-link 
+		.work-link-title
+			font-size: 2rem
+		.work-link-tagline
+			font-size: 1.2rem

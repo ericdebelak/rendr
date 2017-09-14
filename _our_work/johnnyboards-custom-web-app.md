@@ -1,6 +1,7 @@
 ---
 title: "Rendr Consulting - JohnnyBoards custom web application"
 display_title:  "JohnnyBoards"
+display_tagline: "Application Development"
 image: /assets/images/johnny-boards-logo.jpg
 thumbnail: /assets/images/jbthumbnail.png
 layout: our-work

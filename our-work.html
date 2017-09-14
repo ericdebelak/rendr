@@ -5,7 +5,7 @@ permalink: /our-work/
 layout: page-with-hero
 hero-text: Combining our skills to make your business <span class='underline'>scale</span>
 hero-class: work-hero
-body-class: with-hero
+body-class: with-hero our-work-page
 ---
 <div class='container'>
 	<div class='row'>
@@ -22,8 +22,11 @@ body-class: with-hero
 </div>
 {% for work in site.our_work %}
 	<a class="work-link" href="{{ work.url | relative_url }}">
-		<div class='work-tile {{work.classes}} {% unless work.classes contains "featured" %}hidden{%endunless%}' style='background: url({{ work.thumbnail }}); background-size: cover; background-position: top center;'></div>
+		<div class='work-tile {{work.classes}} {% unless work.classes contains "featured" %}hidden{%endunless%}' style='background: url({{ work.thumbnail }}); background-size: cover; background-position: top center;'>
+				<h3 class="work-link-title">{{work.display_title}}</h3>
+				<p class="work-link-tagline">{{work.display_tagline}}</p>
+		</div>
 	</a>
 {% endfor %}
 <p>&nbsp;</p>
-<p class='center-text'><a class='button' href='/contact-us/'>Contact Us</a></p>
+<p class='center-text u-cf u-full-width'><a class='button' href='/contact-us/'>Contact Us</a></p>

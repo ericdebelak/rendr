@@ -1,6 +1,7 @@
 ---
 title: "Rendr Consulting - CheckUp & Choices custom web application"
 display_title:  "CheckUp & Choices"
+display_tagline: "Application Development"
 image: /assets/images/checkupandchoicesscreenshot.png
 thumbnail: /assets/images/ccthumbnail.png
 layout: our-work

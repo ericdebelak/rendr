@@ -1,6 +1,7 @@
 ---
 title: "Rendr Consulting - ScoreStik custom web application"
 display_title:  "ScoreStik"
+display_tagline: "Application Development"
 image: /assets/images/scorestikscreenshots.png
 thumbnail: /assets/images/ssthumbnail.png
 layout: our-work

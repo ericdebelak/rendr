@@ -1,6 +1,7 @@
 ---
 title: "Rendr Consulting - Triberr custom web application"
 display_title:  "Triberr"
+display_tagline: "Application Development"
 image: /assets/images/triberr.jpg
 thumbnail: /assets/images/triberrthumbnail.png
 layout: our-work
