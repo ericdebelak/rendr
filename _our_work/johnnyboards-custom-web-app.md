@@ -12,36 +12,36 @@ canonical_url: 'https://rendrconsulting.com/our-work/'
 ---
 JohnnyBoards is an advertising company that places indoor advertising in locations around New Mexico. Offering a network for small business and public service awareness campaigns around the state, JohnnyBoards utilizes its unique positioning to engage viewers’ attention for up to four minutes. 
 
-**Analysis**
+### Analysis
 
 Rendr and JohnnyBoards came together to create a product to allow for contract and inventory management.  With a strategy in place, Rendr designed and developed a custom CRM that would take what was a low efficient system involving a lot of paperwork being shuffled across many desks, into a digital operation with the functionality to dramatically increase efficiency for not only JohnnyBoards, but the indoor advertising industry as a whole. 
 
-**Development**
+### Development
 
 Using Laravel 4, Rendr developed a completely customizable database that allows JohnnyBoards to manage and analyze contracts, inventory, and oversee customer interactions and data throughout the customer lifecycle. 
 
 <img src="/assets/images/johnny-boards.jpg" class='img-responsive'>
 
-**Key Features**
+### Key Features
 
-Customer Administration
+#### Customer Administration
 
 - Allows multiple indoor advertisers to manage contracts, inventory and proposals
 
-User Management
+#### User Management
 
 - Single sign on member allows user management with permissions
 
-Automations
+#### Automations
 
 - Generates lists of locations that need ads changed
 - Generates invoices
 
-Responsive
+#### Responsive
 
 - Consistent user experience across all platforms and screen sizes
 
-**Testimonial**
+### Testimonial
 
 <blockquote>After years of maintaining clunky Excel spreadsheets and handwritten notes to keep things organized, I knew there had to be a better way. I had a vague idea to create some sort of database to manage all these items, but wasn’t sure how to put it all together.<br><br>
 
