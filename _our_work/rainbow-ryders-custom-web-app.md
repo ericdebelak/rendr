@@ -10,32 +10,30 @@ description: See our custom web application work for Rainbow Ryders, a booking a
 redirect_from: "/our-work/rainbow-ryders"
 canonical_url: "https://rendrconsulting.com/our-work/"
 ---
-CheckUp & Choices is a free survey screener designed to give users feedback on their alcohol consumption habits. Featured on NPR, The New York Times, The Wall Street Journal, and Men's Health Magazine, CheckUp & Choices offers an objective, non-judgmental screening course that allows you to consider what, if anything, you may want to change about your drinking. It offers resources and tools on how to cut back or stop drinking altogether based on your feedback, and can reduce the chance of relapse.
+Rainbow Ryders is the largest private hot air balloon ride company in the United States. As they’ve expanded, the balloon ride company found that average booking and operations software didn’t meet their custom needs. Rainbow Ryders contacted Rendr to build a custom solution to streamline their booking, business operations and ecommerce.
 
-**Analysis**
+### Analysis
 
-Rendr has worked with CheckUp & Choices as their primary technology partner to develop and maintain this application. Rendr stepped in and created a more mature application including greater core functionality and additional features.  
+Rendr has worked with Rainbow Ryders as their primary tech team as we build the custom application. We have streamlined their booking and ecommerce process into an easy-to-use app, and continue to add features to the software.
 
-**Development**
+### Development
 
-CheckUp & Choices was built in React.js with Redux on the front-end, Python with Flask on the backend / API, and using a MongoDB database. Rendr has bettered the user experience and functionality of the app from both a user and admin perspective, adding reporting features, improved data visualization, and partner implementations.
+Rainbow Ryders was built in React.js with Redux on the front-end, a Lumen PHP backend API and a mySQL database. The API is also used to integrate with booking functionality through their WordPress site.
 
-**Key Features**
+### Key Features
 
-- Single Page App
+#### Booking
 
-Though many additonal functionalities have been built, Rendr has preserved nearly instant page updates typical of single page applications.
+Customers can make reservations through the app and customer service representatives are able to make, manage and edit the reservations. The application software allows the customers to input date, ride and location, as well as choosing from coupons, addons, gift cards, agencies.
 
-- Reporting
+#### Operations
 
-Rendr created a reporting mechanism to pull data for internal research and partner validation.
+The application software allows Rainbow Ryders to manage rides, employees, balloons and passengers. It schedules them and allows representatives to print out reports for the crew and pilots.
 
-**Responsive**
+#### Reporting
 
-Rendr has preserved a consistent user experience across all platforms and screen sizes.
+The software compiles sophisticated reports for all aspects of the business with multiple filter options on each report.
 
-**Testimonial**
+#### eCommerce
 
-<blockquote>We brought on the Rendr team when we needed to accelerate ongoing development on our application. They were responsive, fast learners, and immediately contributed by adding new functionality and creating partner implementations and reports. The partnership with Rendr has allowed CheckUp & Choices to successfully launch new products and partner implementations, helping our company expand its offerings. Rendr has become our technology partner and an indispensable member of our team.</blockquote>
-
-<p class="center-text">Caton Burwell<br>CEO, CheckUp & Choices</p>
+Rainbow Ryders can sell merch and gift cards, and can manage inventory through the app.
