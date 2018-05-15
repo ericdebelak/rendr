@@ -21,7 +21,7 @@ Rendr worked with the CheckUp & Choices science team to build a drink tracking w
 
 #### Allow users to log in via a code generated on the CheckUp & Choices user dashboard
 
-<p style="text-align: center;"><img src="/assets/images/in-vivo-cookie.png" alt="in vivo code log in" style="max-height: 400px;">
+<p style="text-align: center;"><img src="/assets/images/in-vivo-cookie.png" alt="in vivo code log in" style="max-height: 400px;"></p>
 
 This feature allows users to log in in a more streamlined fashion - they simply provide the matching 6-digit code given on the site.
 
@@ -43,6 +43,6 @@ To remind users to enter drinks as they followed the program.
 
 #### Easily open the CheckUp & Choices web application on their phone by tapping on a screen in the wearable app.
 
-<p style="text-align: center;"><img src="/assets/images/in-vivo-web-connect.png" alt="in vivo web connect" style="max-height: 400px;">
+<p style="text-align: center;"><img src="/assets/images/in-vivo-web-connect.png" alt="in vivo web connect" style="max-height: 400px;"></p>
 
 So users can easily access a more detailed feedback section in the web application based on data they entered into In Vivo.
