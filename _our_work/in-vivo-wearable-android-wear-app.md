@@ -2,7 +2,7 @@
 title: "Rendr Consulting - In Vivo custom web application"
 display_title:  "In Vivo"
 display_tagline: "Wearable Development"
-image: /assets/images/in-vivo.png
+image: /assets/images/in-vivo1.png
 thumbnail: /assets/images/in-vivo.png
 layout: our-work
 classes: featured all
