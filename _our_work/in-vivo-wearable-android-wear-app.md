@@ -31,12 +31,12 @@ The primary focus of the app, allowing users an easy-to-use and discreet way of 
 
 This feature lets users see how many drinks they entered in a week, along with other stats such as their estimated BAC.
 
-### Display motivational quotes to ponder after entering a drink. 
+#### Display motivational quotes to ponder after entering a drink. 
 
-### Allow users to set up notifications based on a time of their choosing, with an interval of their choosing.
+#### Allow users to set up notifications based on a time of their choosing, with an interval of their choosing.
 
 To remind users to enter drinks as they followed the program. 
 
-### Easily open the CheckUp & Choices web application on their phone by tapping on a screen in the wearable app.
+#### Easily open the CheckUp & Choices web application on their phone by tapping on a screen in the wearable app.
 
 So users can see a more detailed feedback section based on the data they entered into In Vivo.
