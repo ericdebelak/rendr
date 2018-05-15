@@ -21,7 +21,7 @@ Rendr worked with the CheckUp & Choices science team to build a drink tracking w
 
 #### Allow users to log in via a code generated on the CheckUp & Choices user dashboard
 
-<p style="text-align: center;"><img src="/assets/images/in-vivo-cookie.png" alt="in vivo code log in" style="max-height: 400px;"></p>
+<p style="text-align: center;"><img src="/assets/images/in-vivo-cookie.png" alt="in vivo code log in" style="max-height: 500px;"></p>
 
 This feature allows users to log in in a more streamlined fashion - they simply provide the matching 6-digit code given on the site.
 
@@ -31,7 +31,7 @@ The primary focus of the app, allowing users an easy-to-use and discreet way of 
 
 #### Display feedback to the user based on the number of drinks they entered into the app for a given week/day.
 
-<p style="text-align: center;"><img src="/assets/images/in-vivo-feedback.png" alt="in vivo feedback" style="max-height: 400px;"></p>
+<p style="text-align: center;"><img src="/assets/images/in-vivo-feedback.png" alt="in vivo feedback" style="max-height: 300px;"></p>
 
 This feature lets users see how many drinks they entered in a week, along with other stats such as their estimated BAC.
 
@@ -43,6 +43,6 @@ To remind users to enter drinks as they followed the program.
 
 #### Easily open the CheckUp & Choices web application on their phone by tapping on a screen in the wearable app.
 
-<p style="text-align: center;"><img src="/assets/images/in-vivo-web-connect.png" alt="in vivo web connect" style="max-height: 400px;"></p>
+<p style="text-align: center;"><img src="/assets/images/in-vivo-web-connect.png" alt="in vivo web connect" style="max-height: 300px;"></p>
 
-So users can easily access a more detailed feedback section in the web application based on data they entered into In Vivo.
+Users can easily access a more detailed feedback section in the web application based on data they entered into In Vivo.
