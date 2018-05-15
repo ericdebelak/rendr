@@ -5,7 +5,7 @@ display_tagline: "Application Development"
 image: /assets/images/scorestikscreenshots.png
 thumbnail: /assets/images/ssthumbnail.png
 layout: our-work
-classes: case-study all
+classes: case-study all featured
 description: See our custom web application and mobile application development for ScoreStik, a digital scoreboard.
 redirect_from: "/our-work/scorestik"
 canonical_url: 'https://rendrconsulting.com/our-work/'
