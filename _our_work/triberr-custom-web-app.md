@@ -5,7 +5,7 @@ display_tagline: "Application Development"
 image: /assets/images/triberr.jpg
 thumbnail: /assets/images/triberrthumbnail.png
 layout: our-work
-classes: all
+classes: featured all
 description: See our custom web application work for Triberr, a platform for content influencers.
 redirect_from: "/our-work/triberr"
 canonical_url: 'https://rendrconsulting.com/our-work/'
