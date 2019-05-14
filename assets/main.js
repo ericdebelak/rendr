@@ -100,7 +100,7 @@ function contactForm(event) {
 	var xhttp = new XMLHttpRequest();
   	xhttp.onreadystatechange = function() {
     	if (this.readyState == 4 && this.status == 200) {
-      		document.getElementById('form-response').innerHTML = JSON.parse(this.response).success;
+      		document.getElementById('form-response').innerHTML = 'Email sent';
       		document.getElementById('send-button').value = "Send";
     	} else if (this.status >= 400) {
     		document.getElementById('form-response').innerHTML = JSON.parse(this.response).error;
